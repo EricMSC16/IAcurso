@@ -1,0 +1,10 @@
+#Explorando un dataset
+
+from sklearn.datasets import load_iris
+iris_dataset = load_iris()
+
+X = iris_dataset.data
+y = iris_dataset.target
+
+## obteniendo los nombres de los atributos de cada instancia
+print(iris_dataset.feature_names)
